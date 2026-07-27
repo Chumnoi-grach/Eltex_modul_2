@@ -72,7 +72,7 @@ int validate_email(const char *email) {
 // #include <ctype.h>
 // //#include <regex.h>
 
-// int validateters, _name(const char *name) {
+// int validate_name(const char *name) {
 //     if (!name || strlen(name) == 0) return 0;
 //     for (int i = 0; name[i]; i++) {
 //         if (!isalpha(name[i]) && name[i] != ' ' && name[i] != '-' && name[i] != '_') {

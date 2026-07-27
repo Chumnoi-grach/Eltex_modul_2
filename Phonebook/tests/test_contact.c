@@ -47,7 +47,6 @@ START_TEST(test_is_contact_empty) {
     Contact c;
     init_contact(&c);
     
-    // Пустой контакт
     ck_assert_int_eq(is_contact_empty(&c), 1);
     
     // Только фамилия
@@ -88,7 +87,6 @@ START_TEST(test_print_contact) {
     strcpy(c.name, "Иван");
     c.id = 1;
     
-    // Просто проверяем, что не падает
     int result = print_contact(&c);
     ck_assert_int_eq(result, 0);
 }

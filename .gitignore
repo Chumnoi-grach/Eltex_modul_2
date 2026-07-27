@@ -1,0 +1,26 @@
+# Сборка
+build/
+bin/
+obj/
+*.o
+*.so
+calculator
+
+# Исполняемые файлы
+phonebook
+phonebook_seed
+test_runner
+*.exe
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Отладка
+*.dSYM/
+*.gcda
+*.gcno
